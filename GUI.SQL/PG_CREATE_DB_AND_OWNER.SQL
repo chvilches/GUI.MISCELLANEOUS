@@ -1,0 +1,3 @@
+CREATE USER username WITH PASSWORD 'pass';
+CREATE DATABASE name_db OWNER username;
+GRANT ALL PRIVILEGES ON DATABASE name_db TO username;
